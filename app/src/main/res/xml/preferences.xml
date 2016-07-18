@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Players"
+        android:key="pref_players">
+
+        <CheckBoxPreference
+            android:key="pref_first_turn"
+            android:title="@string/first_turn_title"
+            android:summary="@string/first_turn_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_marker"
+            android:title="@string/marker_title"
+            android:summary="@string/marker_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="AI"
+        android:key="pref_AI">
+
+        <CheckBoxPreference
+            android:key="pref_AI_turn"
+            android:title="@string/AI_pause_title"
+            android:summary="@string/AI_pause_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="pref_AI_difficulty"
+            android:title="@string/AI_title"
+            android:dialogTitle="@string/AI_title"
+            android:summary="@string/AI_summary"
+            android:entries="@array/AI_keys"
+            android:entryValues="@array/AI_values"
+            android:defaultValue="@string/AI_default" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Display"
+        android:key="pref_layout_catagory">
+
+        <CheckBoxPreference
+            android:key="pref_keep_names"
+            android:title="@string/keep_names_title"
+            android:summary="@string/keep_names_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_no_background"
+            android:title="@string/no_background_title"
+            android:summary="@string/no_background_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

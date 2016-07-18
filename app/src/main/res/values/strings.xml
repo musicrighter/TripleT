@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TripleT</string>
+
+
+    <string name="first_turn_title">Player 2 goes first</string>
+    <string name="first_turn_summary">The second player or computer goes first</string>
+
+    <string name="marker_title">Player 2 is X</string>
+    <string name="marker_summary">Player 1 is O and player 2 is X</string>
+
+    <string name="AI_pause_title">AI turn delay</string>
+    <string name="AI_pause_summary">AI pauses before move to seem more realistic</string>
+
+    <string name="AI_title">AI difficulty</string>
+    <string name="AI_summary">Choose whether the AI is easy or hard to beat</string>
+
+    <string-array name="AI_keys">
+        <item>Easy</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="AI_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="AI_default">1</string>
+
+    <string name="keep_names_title">Keep players names</string>
+    <string name="keep_names_summary">Keep each players names when playing again</string>
+
+    <string name="no_background_title">No background</string>
+    <string name="no_background_summary">Remove the cool blue background</string>
+
+    <string name="about">Tic Tac Toe (TripleT) by David.
+                            \n\nPlayer vs Player, or Player vs Computer.
+                            \n\nLine up three in a row, column or diagonal to win.
+                            \n\n\n\nThanks for playing!</string>
+
+    <string name="info">Enter your name(s) above.
+                            \n\nThen select 2 Player for PvP or Computer to play against the AI.
+                            \n\nLine up three in a row, column or diagonal to win.</string>
+    <string name="turn_text">Player 1\'s turn</string>
+
+</resources>
